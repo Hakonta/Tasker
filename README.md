@@ -9,6 +9,5 @@ I mostly followed <a href="https://ibaslogic.com">this</a> guide, but made my ow
 <br><br>
 <h3>Here's the app in action:</h3>
 <br><br>
-<img src=“https://github.com/Hakonta/Tasker/blob/master/EDE3903A-17E5-4F8A-A82D-7E935934BD8F.png” width=320 alt="A screenshot of the app in action>
+<img src=“EDE3903A-17E5-4F8A-A82D-7E935934BD8F.png” width="300" alt="A screenshot of the app in action>
 
-![header image](https://github.com/Hakonta/Tasker/blob/master/EDE3903A-17E5-4F8A-A82D-7E935934BD8F.png?raw=true)
