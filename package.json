@@ -12,7 +12,15 @@
     "react-dom": "16.x.x",
     "style-loader": "0.x.x",
     "url-loader": "^2.0.0",
-    "webpack": "4.x.x",
     "webpack-dev-middleware": "3.7.x"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "npx run index.js"
   }
 }

@@ -4,8 +4,9 @@ const webpackMiddleware = require('webpack-dev-middleware');
 
 // Setup
 const app = express();
-const port = process.env['REACT_APP_PORT'];
+const port = typeof process.env['REACT_APP_PORT'] === 'undefined' ? 3000 : process.env['REACT_APP_PORT'];
 const config = require('./webpack.config.js');
+const { debug } = require('webpack');
 const compiler = webpack(config);
 const middleware = webpackMiddleware(compiler, {
   publicPath: config.output.publicPath,
